@@ -54,6 +54,7 @@ header,form{
     }
     .toDo-name{
         width:15rem;
+        
     }
     h1{
         font-size: 2rem;
@@ -153,6 +154,12 @@ form button:hover{
 
 .toDo-name{
     padding: 0rem .5rem;
+    text-overflow: clip;
+    overflow: hidden;
+}
+.toDo{
+    text-overflow: clip;
+    overflow: hidden;
 }
 
 
