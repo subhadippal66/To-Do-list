@@ -10,11 +10,22 @@ html{
 }
 
 body{
-    background: linear-gradient(to right, #614385, #516395);
-    
-    
+   /* background: linear-gradient(to right, #614385, #516395); */    
+   background-color: rgb(180, 76, 76);
+   background-image: url('bg.png');
+   
     color: white;
     font-family: 'Poppins', sans-serif;
+
+    transition: all 2s ease;
+
+    background-repeat: repeat-x;
+    animation: animatedBackground 40s linear infinite;
+}
+
+@keyframes animatedBackground {
+    from { background-position: 0 0; }
+    to { background-position: 200px 0; }
 }
 
 
